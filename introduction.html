@@ -1,0 +1,30 @@
+<html>
+<head><title>Introduction of javascript</title></head>
+<body>
+<p id="demo">click me!!! And see how am i change.</p>
+<button onclick='document.getElementById("demo").innerHTML="hello I am changed"'>click me pls</button>  
+<p id="demo1">It is accept both single and double quotation</p>
+<button onclick="document.getElementById('demo1').innerHTML='see I am changed;'">Click me again</button>
+<h2>What Can JavaScript Do?</h2>
+
+<p>EXAMPLE OF BULB</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='img1.jpg'">Turn on the light</button>
+
+<img id="myImage" src="img.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='img.jpg'">Turn off the light</button>
+
+<H1>TAKE ONE ANOTHER EXAMPLE FOR ZOOM THE TEXT</H1>
+<p id="demo2">now click me!! & see how i am zoom</p>
+<button onclick="document.getElementById('demo2').style.fontSize='40px'">click me</button>
+<H1> Javascript can also hide the text</h1>
+<p id="demo3">click me and see</p>
+<button onclick="document.getElementById('demo3').style.display='none'">HIDE ME</button>
+<H1>IT CAN ALSO FIND THE HIDDEN WORDS</H1>
+<p id="demo4" style="display:none">I am there</p>
+<button onclick="document.getElementById('demo4').style.display='block'">click me</button>
+</body>
+</html>
